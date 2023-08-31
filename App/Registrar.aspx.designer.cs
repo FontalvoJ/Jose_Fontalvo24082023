@@ -30,7 +30,7 @@ namespace App
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txt_id;
+        protected global::System.Web.UI.WebControls.TextBox txt_id;
 
         /// <summary>
         /// Control txt_nombre.
@@ -39,7 +39,7 @@ namespace App
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txt_nombre;
+        protected global::System.Web.UI.WebControls.TextBox txt_nombre;
 
         /// <summary>
         /// Control txt_apellido.
@@ -48,7 +48,7 @@ namespace App
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txt_apellido;
+        protected global::System.Web.UI.WebControls.TextBox txt_apellido;
 
         /// <summary>
         /// Control txt_contacto.
@@ -57,7 +57,7 @@ namespace App
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txt_contacto;
+        protected global::System.Web.UI.WebControls.TextBox txt_contacto;
 
         /// <summary>
         /// Control txt_correo.
@@ -66,7 +66,7 @@ namespace App
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txt_correo;
+        protected global::System.Web.UI.WebControls.TextBox txt_correo;
 
         /// <summary>
         /// Control txt_direccion.
@@ -75,7 +75,7 @@ namespace App
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txt_direccion;
+        protected global::System.Web.UI.WebControls.TextBox txt_direccion;
 
         /// <summary>
         /// Control txt_salario.
@@ -84,7 +84,7 @@ namespace App
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txt_salario;
+        protected global::System.Web.UI.WebControls.TextBox txt_salario;
 
         /// <summary>
         /// Control txt_empresa.
@@ -93,7 +93,7 @@ namespace App
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txt_empresa;
+        protected global::System.Web.UI.WebControls.TextBox txt_empresa;
 
         /// <summary>
         /// Control btn_guardar.
@@ -103,5 +103,23 @@ namespace App
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_guardar;
+
+        /// <summary>
+        /// Control btn_actualizar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_actualizar;
+
+        /// <summary>
+        /// Control btn_nuevo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_nuevo;
     }
 }

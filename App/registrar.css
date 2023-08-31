@@ -1,0 +1,92 @@
+﻿/* Estilos generales */
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+    max-height: 90vh; /* Establece la altura máxima al 90% del viewport height */
+    overflow-y: auto; /* Habilita la barra de desplazamiento vertical si el contenido excede la altura máxima */
+    font-size: 14px; /* Ajusta el tamaño de fuente base */
+}
+
+/* Estilos para las etiquetas asp:Label */
+.label-style {
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 12px; /* Ajusta el tamaño de fuente de las etiquetas */
+    padding: 10px; /* Ajusta el espacio interno de las etiquetas */
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 20px; /* Reduce el espacio inferior entre etiquetas */
+}
+
+/* Estilos para el botón */
+.input-box {
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 2px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    padding: 15px 30px 14px 30px; /* Ajusta el tamaño del botón */
+    margin-bottom: 8px; /* Reduce el espacio inferior entre botones */
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+}
+
+/* Estilos para los botones en línea */
+.form-group-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Otros estilos */
+legend {
+    font-size: 1.2em; /* Ajusta el tamaño de fuente de la leyenda */
+    margin-bottom: 8px; /* Reduce el espacio inferior de la leyenda */
+}
+
+.label-number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 25px; /* Ajusta el tamaño del número en la etiqueta */
+    width: 25px; /* Ajusta el tamaño del número en la etiqueta */
+    display: inline-block;
+    font-size: 0.7em; /* Ajusta el tamaño de fuente del número en la etiqueta */
+    margin-right: 2px; /* Reduce el espacio derecho del número en la etiqueta */
+    line-height: 25px; /* Ajusta la altura de línea para centrar el número */
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 480px) {
+    form {
+        max-width: 480px;
+    }
+}
