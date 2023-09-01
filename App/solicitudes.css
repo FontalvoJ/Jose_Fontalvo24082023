@@ -85,8 +85,15 @@ legend {
     border-radius: 50%;
 }
 
-@media screen and (min-width: 480px) {
-    form {
-        max-width: 480px;
-    }
+.info-label {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
 }
+
+    @media screen and (min-width: 480px) {
+        form {
+            max-width: 480px;
+        }
+    }

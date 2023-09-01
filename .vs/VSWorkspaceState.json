@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\App"
   ],
-  "SelectedNode": "\\App.sln",
+  "SelectedNode": "\\App\\solicitudes.aspx",
   "PreviewInSolutionExplorer": false
 }

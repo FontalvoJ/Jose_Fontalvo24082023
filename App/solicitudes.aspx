@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registrar.aspx.cs" Inherits="App.Registrar" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="solicitudes.aspx.cs" Inherits="App.Registrar" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="registrar.css" />
+    <link rel="stylesheet" href="solicitudes.css" />
 
 </head>
 <body class="container bg-light">
@@ -29,7 +29,7 @@
                 <label for="txt_id">Id:</label>
                 <asp:TextBox ID="txt_id" runat="server" CssClass="label-style"></asp:TextBox>
             </div>
-            
+
             <div class="form-group">
                 <label for="txt_nombre">Nombres:</label>
                 <asp:TextBox ID="txt_nombre" runat="server" CssClass="label-style"></asp:TextBox>
@@ -56,6 +56,11 @@
             </div>
 
             <div class="form-group">
+                <label>Estado del Crédito:</label>
+                <asp:Label ID="lbl_estado" runat="server" CssClass="label-style"></asp:Label>
+            </div>
+
+            <div class="form-group">
                 <label for="txt_salario">Salario:</label>
                 <asp:TextBox ID="txt_salario" runat="server" CssClass="label-style"></asp:TextBox>
             </div>
@@ -64,13 +69,28 @@
                 <label for="txt_empresa">Empresa:</label>
                 <asp:TextBox ID="txt_empresa" runat="server" CssClass="label-style"></asp:TextBox>
             </div>
+
+            <div class="form-group">
+                <label for="txt_monto">Monto:</label>
+                <asp:TextBox ID="txt_monto" runat="server" CssClass="label-style"></asp:TextBox>
+            </div>
+
+            <div class="form-group">
+                <label for="txt_plazo">Plazo:</label>
+                <asp:TextBox ID="txt_plazo" runat="server" CssClass="label-style"></asp:TextBox>
+                 <asp:Label ID="lbl_plazo_info" runat="server" CssClass="info-label">Ingresa 0 para 6 meses, 1 para 12 meses, 2 para 24 meses, o 3 para 36 meses.</asp:Label>
+            </div>
+
         </fieldset>
 
         <div class="form-group-btn">
-            <asp:Button ID="btn_guardar" runat="server" Text="Guardar" CssClass="input-box" />
-            <asp:Button ID="btn_actualizar" runat="server" Text="Actualizar" CssClass="input-box" />
-            <asp:Button ID="btn_nuevo" runat="server" Text="Nuevo" CssClass="input-box" />
+            <asp:Button ID="btn_guardar" runat="server" Text="Guardar" CssClass="input-box" OnClick="btn_guardar_Click" />
+            <asp:Button ID="btn_nuevo" runat="server" Text="Nuevo" CssClass="input-box" OnClick="btn_nuevo_Click" />
+            <asp:Button ID="btn_consultar" runat="server" Text="Constultar" CssClass="input-box" OnClick="btn_consultar_Click" />
         </div>
+
+        <asp:Label ID="lbl_mensaje" runat="server" Text=""></asp:Label>
+
     </form>
 
 </body>

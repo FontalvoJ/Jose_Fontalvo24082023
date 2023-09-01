@@ -67,18 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="registrar.css" />
-    <Content Include="Registrar.aspx" />
+    <Content Include="solicitudes.css" />
+    <Content Include="solicitudes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cls_conexion.cs" />
+    <Compile Include="cls_solicitudes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registrar.aspx.cs">
-      <DependentUpon>Registrar.aspx</DependentUpon>
+    <Compile Include="solicitudes.aspx.cs">
+      <DependentUpon>solicitudes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Registrar.aspx.designer.cs">
-      <DependentUpon>Registrar.aspx</DependentUpon>
+    <Compile Include="solicitudes.aspx.designer.cs">
+      <DependentUpon>solicitudes.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
